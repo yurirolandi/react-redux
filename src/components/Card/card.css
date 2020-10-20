@@ -1,0 +1,63 @@
+.card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.card .card__header{
+    display: flex;
+    justify-content: center;
+}
+
+.card .card__header .card__title{
+    flex: 1;
+    padding: 5;
+}
+
+.card .card__content{
+    padding: 20px;
+}
+
+.card.red .card__header{
+    color: #fff;
+    background-color: #c62828;
+}
+
+.card.red .card__content{
+    color: #fff;
+    background-color: #f44336;
+}
+
+
+.card.green .card__header{
+    color: #fff;
+    background-color: #2e7d32;
+}
+
+.card.green .card__content{
+    color: #fff;
+    background-color: #4caf50;
+}
+
+
+.card.blue .card__header{
+    color: #fff;
+    background-color: #1565c0;
+}
+
+.card.blue .card__content{
+    color: #fff;
+    background-color: #2196f3;
+}
+
+
+.card.purple .card__header{
+    color: #fff;
+    background-color: #801f91;
+}
+
+.card.purple .card__content{
+    color: #fff;
+    background-color: #9c27b0;
+}
