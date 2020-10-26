@@ -6,16 +6,20 @@ import Sorteio from './components/Sorteio/Sorteio.jsx'
 import Intervalo from './components/Intervalo/Intervalo.jsx';
 
 function App() {
+
+
   return (
     <div className="App">
       <h1>Exercicio React - Redux</h1>
       <div className="linha">
-        <Intervalo></Intervalo>
+        <Intervalo
+          
+        />
       </div>
       <div className="linha">
-        <Media></Media>
-        <Soma></Soma>
-        <Sorteio></Sorteio>
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   );
